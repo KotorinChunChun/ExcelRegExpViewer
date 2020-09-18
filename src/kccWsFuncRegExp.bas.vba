@@ -1,7 +1,7 @@
 Attribute VB_Name = "kccWsFuncRegExp"
 Option Explicit
 
-Rem マッチするか
+Rem マッチするかを確認
 Rem
 Rem  @param strSource       調査対象文字列
 Rem  @param strPattern      検査パターン
@@ -124,7 +124,7 @@ Sub Test_RegexMatches()
     Debug.Print Join(RegexMatchValues(src, ptn), ",")
 End Sub
 
-Rem マッチした箇所の配列のサブマッチ配列
+Rem マッチした箇所の配列のサブマッチ値配列
 Function RegexSubMatches(strSource As String, strPattern As String)
     RegexSubMatches = RegexMatches(strSource, strPattern, "SubMatches")
 End Function
