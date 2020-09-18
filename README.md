@@ -12,6 +12,12 @@ Excel上で正規表現の動作確認をしつつ、事例をテーブル形式
 * 作成したパターンをワンクリックで https://regexper.com/ に転送し、フローチャートでプレビュー
 * VBA、特にイミディエイトウィンドウから手っ取り早く正規表現を実行
 
+![image](https://user-images.githubusercontent.com/55196383/93623307-7eff2c00-fa19-11ea-8ef3-1c033fce6f40.png)
+
+![image](https://user-images.githubusercontent.com/55196383/93623168-40697180-fa19-11ea-9c5b-30bbfb75b755.png)
+
+![image](https://user-images.githubusercontent.com/55196383/93623410-aa821680-fa19-11ea-9918-9d0b82c4ffb4.png)
+
 ## シート
 
 ### 正規表現テスト
@@ -24,21 +30,22 @@ Excel上で正規表現の動作確認をしつつ、事例をテーブル形式
 
 ## 関数一覧
 
-### RegexIsMatch - マッチするかを確認
+#### RegexIsMatch - マッチするかを確認
 
-### RegexReplace - マッチした文字列を置換
+#### RegexReplace - マッチした文字列を置換
 
-### RegexMatchCount - マッチした箇所の個数
+#### RegexMatchCount - マッチした箇所の個数
 
-### RegexMatchIndexs - マッチした箇所の開始インデックス配列
+#### RegexMatchIndexs - マッチした箇所の開始インデックス配列
 
-### RegexMatchLengths - マッチした箇所の文字列長配列
+#### RegexMatchLengths - マッチした箇所の文字列長配列
 
-### RegexMatchValues - マッチした箇所の値配列
+#### RegexMatchValues - マッチした箇所の値配列
 
-### RegexSubMatches - マッチした箇所の配列のサブマッチ値配列
+#### RegexSubMatches - マッチした箇所の配列のサブマッチ値配列
 
 ## その他
 
 細かいところは各自でカスタマイズすべし。
+
 良いアイディア会ったらフィードバックよろしくぅ
