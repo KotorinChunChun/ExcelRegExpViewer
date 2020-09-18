@@ -1,0 +1,27 @@
+{
+    //改行コード
+    "files.eol": "\r\n",
+  
+    //文字コード自動判定
+    //"files.autoGuessEncoding": true,
+  
+    //文字コード強制Shift-JIS
+    //"files.encoding": "shiftjis",
+  
+    //言語に対するファイルの関連付け
+    //・シンタックスハイライト
+    //・文字コード判定
+    "files.associations": {
+      "*.vbs": "vb",
+      "*.md": "markdown"
+    },
+  
+    //文字コード設定
+    "[vb]": {
+      "files.encoding": "shiftjis"
+    },
+    "[markdown]": {
+      "files.encoding": "utf8"
+    }
+  }
+  

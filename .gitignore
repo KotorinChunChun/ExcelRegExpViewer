@@ -1,0 +1,8 @@
+
+~$*.xl*
+bin/backup/*
+src/backup/*
+backup/*
+dev/*
+src2/*
+src_back/*

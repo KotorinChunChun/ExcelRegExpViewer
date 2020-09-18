@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.cls diff=sjis
+*.bas diff=sjis
+*.frm diff=sjis
+*.vbs diff=sjis
+*.vba diff=sjis
+
+*.cls text eol=crlf
+*.bas text eol=crlf
+*.frm text eol=crlf
+*.vbs text eol=crlf
+*.vba text eol=crlf
