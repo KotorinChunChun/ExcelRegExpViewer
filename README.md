@@ -1,4 +1,4 @@
-# ExcelRegExpViewer - Excel正規表現確認ビューアー
+# [ExcelRegExpViewer - Excel正規表現確認ビューアー](https://github.com/KotorinChunChun/ExcelRegExpViewer/)
 
 ## これは
 
@@ -55,3 +55,7 @@ Excelのテーブル上で正規表現の動作確認をしつつ、ノウハウ
 細かいところは各自でカスタマイズすべし。
 
 良いアイディア会ったらフィードバックよろしくぅ
+
+## The MIT License
+
+Copyright (c) 2020 [KotorinChunChun](https://github.com/KotorinChunChun)
