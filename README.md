@@ -1,10 +1,14 @@
-# ExcelRegExpViewer - Excel正規表現確認ビューアー
+# [ExcelRegExpViewer - Excel正規表現確認ビューアー](https://github.com/KotorinChunChun/ExcelRegExpViewer/)
 
 ## これは
 
-Excel上で正規表現の動作確認をしつつ、事例をテーブル形式て蓄積していくためのツールです。
+Excelのテーブル上で正規表現の動作確認をしつつ、ノウハウを蓄積していくためのエクセルマクロブックです。
 
-正規表現は `CreateObject("VBScript.RegExp")` にしか対応していないので注意が必要です。
+正規表現は Excel VBAなどで使われる `VBScript.RegExp` のサポートしている記法しか対応していないので注意が必要です。
+
+巷には正規表現をグラフィカルに検証する便利なWEBサイトが多数あるものの、事例を蓄積するのには適しているとは言えないため、このようなものを開発しました。
+
+ワークシート上でVBAのユーザー定義関数を使って正規表現を検証し、HYPERLINK・ENCODEURL関数を使って外部WEBサイトにハイパーリンクしてグラフィカルなプレビューを丸投げしています。
 
 ## できること
 
@@ -12,7 +16,9 @@ Excel上で正規表現の動作確認をしつつ、事例をテーブル形式
 * 作成したパターンをワンクリックで https://regexper.com/ に転送し、フローチャートでプレビュー
 * VBA、特にイミディエイトウィンドウから手っ取り早く正規表現を実行
 
-![image](https://user-images.githubusercontent.com/55196383/93623307-7eff2c00-fa19-11ea-8ef3-1c033fce6f40.png)
+![image](https://user-images.githubusercontent.com/55196383/93624710-ba025f00-fa1b-11ea-80a2-f9de16690859.png)
+
+![image](https://user-images.githubusercontent.com/55196383/93624577-8b848400-fa1b-11ea-9099-c7430d099133.png)
 
 ![image](https://user-images.githubusercontent.com/55196383/93623168-40697180-fa19-11ea-9c5b-30bbfb75b755.png)
 
@@ -49,3 +55,7 @@ Excel上で正規表現の動作確認をしつつ、事例をテーブル形式
 細かいところは各自でカスタマイズすべし。
 
 良いアイディア会ったらフィードバックよろしくぅ
+
+## The MIT License
+
+Copyright (c) 2020 [KotorinChunChun](https://github.com/KotorinChunChun)
