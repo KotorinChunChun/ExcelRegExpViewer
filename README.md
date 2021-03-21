@@ -4,7 +4,7 @@
 
 Excelのテーブル上で正規表現の動作確認をしつつ、ノウハウを蓄積していくためのエクセルマクロブックです。
 
-正規表現は Excel VBAなどで使われる `VBScript.RegExp` のサポートしている記法しか対応していないので注意が必要です。
+正規表現には多種多様な方言があります。このツールは、 Excel VBAなどで使われる `VBScript.RegExp` のライブラリのサポートしている記法しか対応していないので注意が必要です。
 
 巷には正規表現をグラフィカルに検証する便利なWEBサイトが多数あるものの、事例を蓄積するのには適しているとは言えないため、このようなものを開発しました。
 
@@ -56,6 +56,12 @@ Excelのテーブル上で正規表現の動作確認をしつつ、ノウハウ
 
 良いアイディア会ったらフィードバックよろしくぅ
 
+## 参考 - 正規表現チェックツールまとめ
+
+https://qiita.com/aqril_1132/items/c185c7ad84c129e5a2df#1debuggex-online-visual-regex-tester
+
 ## The MIT License
 
 Copyright (c) 2020 [KotorinChunChun](https://github.com/KotorinChunChun)
+
+
